@@ -3,7 +3,9 @@
 
 import Image from "next/image" ;
 import Link from "next/link" ;
-import logo from "@assets/images/tools.svg" ;
+import logo from "@assets/images/logo.png" ;
+import menubar from "@assets/images/menubar.svg";
+import closebar from "@assets/images/close.svg";
 import { useState } from "react";
 // import { useRouter } from "next/navigation";
 
@@ -24,8 +26,8 @@ const Navbar = () => {
         
           <Image
           src={logo}
-          width={50}
-          height={50}
+          width={40}
+          height={40}
           alt="Picture of the author"
           />
           <Link href={"/"} className="navTitleText" > Football United </Link>
@@ -37,7 +39,11 @@ const Navbar = () => {
           <Link className="largeMenuBtn" href={"/contact"} > Contact Us </Link>
        </div>
 
-       <span className="mobileMenuBarIcon" onClick={onClickHanlder} >  Menu </span>
+       <div className="mobileMenuBarIcon" onClick={onClickHanlder} > 
+       {
+showMenuBar ? <Image src={closebar} width={30} height={30} alt="Menu" /> : <Image src={menubar} width={30} height={30} alt="Menu" />
+       }
+       </div>
 
        <div className={showMenuBar ? "mobileMenuBar showMenu" : "mobileMenuBar" }>
           <Link className="mobileMenuBtn" href={"/"} onClick={ onGoToRoute} > All News </Link>

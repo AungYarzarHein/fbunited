@@ -42,6 +42,7 @@ body {
     /* justify-content: space-between; */
     align-items: center;
     gap: 10px;
+    padding-left: 5px;
 }
 
 .navTitleText {
@@ -137,29 +138,34 @@ body {
 
 /* Post Details card */
 
+.postContainer {
+    padding: 1rem;
+}
+
 .postDetailsInfo {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     /* background-color: #dddada; */
     margin: 10px 0;
-    padding-inline: .5rem;
+    /* padding-inline: .5rem; */
     
 }
 
 .postDetailsInfo span {
     color: #000000;
-    padding-block: 10px;
+    /* padding-block: 10px; */
     font-style: italic;
 }
 .detailsCard {
     display: flex;
     /* background-color: red; */
     flex-direction: column;
-    padding: .5rem;
+    /* padding: .5rem; */
 }
 .detailsCardText {
     margin: 1rem 0;
+    line-height: 2;
     /* padding: .5rem; */
 }
 
@@ -257,7 +263,7 @@ body {
     flex-direction: column;
     gap: 1rem;
     box-sizing: border-box;
-    padding: 2rem 1rem;
+    padding: 3rem 1rem;
     display: none;
 }
 
@@ -274,10 +280,15 @@ body {
     flex: 1;
   }
 
+  .newsCardTitle {
+    font-size: 1rem;
+  }
+
   .mobileMenuBarIcon {
     display: flex;
-    background-color: red;
+    /* background-color: red; */
     margin: auto;
+    padding-right: .5rem;
   }
   .showMenu {
     display: flex;
@@ -285,7 +296,7 @@ body {
   }
 
   .postDetailsInfo span  {
-    font-size: .9rem;
+    font-size: .8rem;
   }
 
   .mobileMenuBtn {
@@ -293,6 +304,15 @@ body {
     color: #fff;
     /* background-color: red; */
     text-align: center;
+  }
+
+  .postContainer {
+    padding: .5rem;
+  }
+
+  .detailsCardText {
+    font-size: .8rem;
+    line-height: 2;
   }
 }
 

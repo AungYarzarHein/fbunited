@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "@assets/images/tools.svg";
+import logo from "@assets/images/logo.png";
 import Link from "next/link";
 
 const NewsCard = ({item}) => {

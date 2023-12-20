@@ -28,7 +28,7 @@ const Post = ({params}) => {
   const fetchPostData = async (postId) => {
     const post = await getDoc(doc(db,"postsData",postId)) ;
     if(post) {
-      console.log(post.data())
+      // console.log(post.data())
       setPostData(post.data());
       setLoading(false);
     }
