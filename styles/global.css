@@ -1,0 +1,300 @@
+
+
+body {
+    /* background-color: aliceblue; */
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(45deg,rgb(255, 255, 255),rgb(221, 242, 255));
+    background-repeat: no-repeat;
+    min-width: 100vw;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+
+.app {
+    max-width: 800px;
+    /* background-color: aliceblue; */
+    margin: 0 auto;
+}
+
+.navbarWrapper {
+    background: linear-gradient(45deg,rgb(91, 217, 255),rgb(114, 116, 245));
+    /* box-shadow: 0px 2px 2px rgb(13, 124, 221); */
+}
+
+.navbar {
+    max-width: 1280px;
+    /* background-color: rgb(37, 153, 255); */
+    margin: 0 auto;
+    display: flex;
+    padding: 5px 0;
+    position: relative;
+    height: 60px;
+    /* border-bottom: 1px solid rgb(88, 129, 182); */
+}
+
+.navTitle {
+    display: flex;
+    /* flex: 1; */
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 10px;
+}
+
+.navTitleText {
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    /* background-color: rebeccapurple; */
+}
+
+.largeMenuBar {
+     display: flex;
+     flex: 1;
+     flex-direction: row;
+     justify-content: flex-end;
+     align-items: center;
+     gap: 5px;
+     margin-right: 10px;
+}
+
+.largeMenuBtn {
+    padding: 10px 20px;
+    /* background-color: rgb(171, 209, 241); */
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.largeMenuBtn:hover {
+    background-color:rgb(20, 128, 216);
+    color: #fff;
+}
+
+.mobileMenuBarIcon {
+    display: none;
+    cursor: pointer;
+}
+
+/* For home page */
+
+.homePageContainer {
+    padding: 1rem .5rem;
+    min-height: 100vh;
+    /* background-color: rgb(181, 221, 255); */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* overflow: scroll; */
+}
+
+
+/* for newscard */
+
+.newsCardContainer {
+    /* background: linear-gradient(45deg,rgb(198, 224, 247),rgb(110, 191, 238)); */
+    background: linear-gradient(180deg,rgba(91, 217, 255, 0.151),rgba(114, 116, 245, 0.116));
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 1rem;
+    border-radius: 2px;
+    align-items: center;
+    box-shadow: 0px 0.5px 1px rgba(108, 160, 255, 0.644);
+    text-decoration: none;
+    margin-bottom: 1rem;
+    
+}
+
+
+
+.newsCardImage {
+    display: flex;
+    /* flex: 1; */
+    /* max-width: 400px; */
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.newsCardTitle {
+    display: flex;
+    flex: 3;
+    font-size: 1.2rem;
+    color: #000000;
+    font-weight: 700;
+    /* background: linear-gradient(45deg,rgb(91, 217, 255),rgba(157, 159, 247, 0.356)); */
+    padding: .5rem;
+}
+
+
+/* Post Details card */
+
+.postDetailsInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: #dddada; */
+    margin: 10px 0;
+    padding-inline: .5rem;
+    
+}
+
+.postDetailsInfo span {
+    color: #000000;
+    padding-block: 10px;
+    font-style: italic;
+}
+.detailsCard {
+    display: flex;
+    /* background-color: red; */
+    flex-direction: column;
+    padding: .5rem;
+}
+.detailsCardText {
+    margin: 1rem 0;
+    /* padding: .5rem; */
+}
+
+
+/* for footer  */
+
+.footerContainer {
+    /* height: 400px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 2rem 0;
+    /* margin: 0 auto; */
+    /* background: linear-gradient(45deg,rgb(200, 239, 255),rgb(4, 74, 102)); */
+    background: linear-gradient(45deg,rgb(91, 217, 255),rgb(114, 116, 245));
+
+}
+
+.footerWrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+    /* background-color: gold; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 1rem;
+    gap: 1rem;
+}
+
+
+.footerCardHeader {
+    min-width: 300px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.footerTextLogo {
+    display: flex;
+    flex-direction: row;
+}
+
+.textLogoOne {
+    background-color: red;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 900;
+    padding: 1rem;
+}
+
+.textLogoTwo {
+    background-color: #fff;
+    color: red;
+    font-size: 1.3rem;
+    font-weight: 900;
+    padding: 1rem;
+
+}
+
+
+
+.footerInfoContainer {
+     display: flex;
+     flex: 1;
+     min-width: 300px;
+     flex-direction: column;
+
+     /* background-color: gold; */
+}
+
+.shortLink {
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+
+
+
+
+/* For Mobile menu bar */
+
+.mobileMenuBar {
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    /* display: flex; */
+    background-color: rgb(0, 132, 255);
+    flex-direction: column;
+    gap: 1rem;
+    box-sizing: border-box;
+    padding: 2rem 1rem;
+    display: none;
+}
+
+
+
+
+@media screen and (max-width:660px) {
+
+  .largeMenuBar {
+    display: none;
+  }
+
+  .navTitle {
+    flex: 1;
+  }
+
+  .mobileMenuBarIcon {
+    display: flex;
+    background-color: red;
+    margin: auto;
+  }
+  .showMenu {
+    display: flex;
+    transition: all 3s ease-in-out;
+  }
+
+  .postDetailsInfo span  {
+    font-size: .9rem;
+  }
+
+  .mobileMenuBtn {
+    text-decoration: none;
+    color: #fff;
+    /* background-color: red; */
+    text-align: center;
+  }
+}
+
+
+

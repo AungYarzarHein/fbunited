@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 2000 2000" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(0 947.64)">
+  <g transform="matrix(3.4087 0 0 3.4087 175.38 -2672.7)" fill-rule="evenodd">
+   <ellipse transform="rotate(-90)" cx="-796.79" cy="254.48" rx="247.5" ry="247.4" fill="#fff" stroke="#045" stroke-linecap="round" stroke-width="5"/>
+   <rect transform="scale(1,-1)" x="254.38" y="-761.4" width="18.596" height="132.21" ry=".18352" fill="#0a8" stroke="#045" stroke-linecap="round" stroke-width="5"/>
+   <g transform="matrix(1.1971 0 0 1.1945 183.49 -218.47)">
+    <rect x="86.408" y="704.79" width="24.272" height="154.18" ry=".18599" fill="#0cf" stroke="#045" stroke-linecap="round" stroke-width="4.1813"/>
+    <rect x="96.191" y="729.3" width="12.621" height="1" ry=".065943" fill="#0cf" stroke="#045" stroke-linecap="round" stroke-width="4.1813"/>
+    <rect transform="scale(1,-1)" x="94.462" y="-713.77" width="16.08" height="3" ry=".14837" fill="#045"/>
+    <rect transform="scale(1,-1)" x="94.462" y="-722.53" width="16.08" height="3" ry=".14837" fill="#045"/>
+    <rect x="96.191" y="755.6" width="12.621" height="1" ry=".065943" fill="#0cf" stroke="#045" stroke-linecap="round" stroke-width="4.1813"/>
+    <rect transform="scale(1,-1)" x="94.462" y="-740.07" width="16.08" height="3" ry=".14837" fill="#045"/>
+    <rect transform="scale(1,-1)" x="94.462" y="-748.83" width="16.08" height="3" ry=".14837" fill="#045"/>
+    <rect x="96.191" y="781.3" width="12.621" height="1" ry=".065943" fill="#0cf" stroke="#045" stroke-linecap="round" stroke-width="4.1813"/>
+    <rect transform="scale(1,-1)" x="94.462" y="-765.77" width="16.08" height="3" ry=".14837" fill="#045"/>
+    <rect transform="scale(1,-1)" x="94.462" y="-774.53" width="16.08" height="3" ry=".14837" fill="#045"/>
+    <rect x="96.191" y="807.6" width="12.621" height="1" ry=".065943" fill="#0cf" stroke="#045" stroke-linecap="round" stroke-width="4.1813"/>
+    <rect transform="scale(1,-1)" x="94.462" y="-792.07" width="16.08" height="3" ry=".14837" fill="#045"/>
+    <rect transform="scale(1,-1)" x="94.462" y="-800.83" width="16.08" height="3" ry=".14837" fill="#045"/>
+    <rect x="96.191" y="833.3" width="12.621" height="1" ry=".065943" fill="#0cf" stroke="#045" stroke-linecap="round" stroke-width="4.1813"/>
+    <rect transform="scale(1,-1)" x="94.462" y="-817.77" width="16.08" height="3" ry=".14837" fill="#045"/>
+    <rect transform="scale(1,-1)" x="94.462" y="-826.53" width="16.08" height="3" ry=".14837" fill="#045"/>
+    <rect transform="scale(1,-1)" x="94.462" y="-844.07" width="16.08" height="3" ry=".14837" fill="#045"/>
+    <rect transform="scale(1,-1)" x="94.462" y="-852.83" width="16.08" height="3" ry=".14837" fill="#045"/>
+   </g>
+   <g transform="matrix(1.1126 -.44091 -.44188 -1.1101 752.66 1534)" fill="#0a8" stroke="#045" stroke-linecap="round">
+    <rect x="-163.11" y="733.92" width="15.534" height="110.68" ry=".15364" stroke-width="4.1813"/>
+    <path transform="matrix(-.7094 .27953 -.20653 -.96014 -64.955 1731)" d="m-120.86 883.93-17.267-4.6266 12.64-12.64z" stroke-width="3.8915"/>
+   </g>
+   <path transform="matrix(-.84923 .3339 -.24724 -1.1469 371.88 1820.2)" d="m-120.86 883.93-17.267-4.6266 12.64-12.64z" fill="#0a8" stroke="#045" stroke-linecap="round" stroke-width="3.8915"/>
+   <g transform="translate(-25.243 -26.214)" fill="#006680" stroke="#045" stroke-linecap="round">
+    <rect transform="matrix(-.92966 -.36842 .36982 -.9291 0 0)" x="-549.37" y="-661.9" width="18.59" height="132.25" ry=".18358" stroke-width="5"/>
+    <path transform="matrix(.91278 .0024594 -.19448 1.1569 597.31 -332.77)" d="m-120.86 883.93-17.267-4.6266 12.64-12.64z" stroke-width="3.8915"/>
+   </g>
+   <path d="m203.38 725.51h125.27c0.0701 0 0.13092 0.0729 0.12663 0.16283l-7.6824 161.24c-8.1357 0-8.0091-0.16287 0 0l-109.43 0.31339c8.948-0.31339 9.379-0.38574-0.12663-0.16285l-8.287-161.39c-5e-3 -0.0901 0.0565-0.16283 0.12664-0.16283z" fill="#0a8" stroke="#045" stroke-linecap="round" stroke-width="4"/>
+   <g transform="translate(-25.243 -26.214)" fill="#0cf" stroke="#045" stroke-linecap="round">
+    <rect transform="matrix(-.018328 -.99983 .99986 -.01682 0 0)" x="-927.38" y="253.57" width="18.59" height="132.25" ry=".18358" stroke-width="5"/>
+    <path transform="matrix(.34951 .84322 -1.1425 .26642 1459.5 785.48)" d="m-120.86 883.93-17.267-4.6266 12.64-12.64z" stroke-width="3.8915"/>
+   </g>
+   <g transform="matrix(0 -1.1945 -1.1971 0 1233.9 717.76)" stroke="#045" stroke-linecap="round">
+    <rect x="-143.69" y="763.04" width="15.534" height="110.68" ry=".15364" fill="#045" stroke-width="4.1813"/>
+    <path transform="matrix(-.7094 .47996 -.20653 -1.6486 -45.538 2392.5)" d="m-120.86 883.93-17.267-4.6266 12.64-12.64z" fill="#0a8" stroke-width="2.9699"/>
+    <rect x="-143.69" y="763.04" width="15.534" height="32.039" ry=".044475" fill="#006680" stroke-width="4.1813"/>
+    <rect x="-125.24" y="780.52" width="5.8252" height="35.922" ry=".044475" fill="#0cf" stroke-width="3.345"/>
+    <rect x="-127.13" y="762.69" width="9.7087" height="21.359" ry=".026445" fill="#0cf" stroke-width="3.345"/>
+   </g>
+   <g transform="translate(-25.243 -26.214)" fill="#0cf" stroke="#045" stroke-linecap="round">
+    <g transform="matrix(.66555 .74635 -.74635 .66555 733.02 184.91)">
+     <path d="m155.67 902.62c4.0736 4.0715 11.853 11.388 6.1602 14.301-5.6928 2.9135-8.9482-5.2068-13.022-9.2783-4.0736-4.0715-41.152-32.978-35.459-35.892s38.247 26.797 42.32 30.869z" stroke-width="4"/>
+     <ellipse transform="matrix(.99996 .0083998 -.01642 .99987 0 0)" cx="181.24" cy="916.12" rx="11.65" ry="8.333" stroke-width="8.0001"/>
+    </g>
+    <path d="m143.57 894.04c-5.4677 3.1262-15.735 8.6548-11.364 12.565 4.3711 3.9105 10.59-3.2711 16.058-6.3973 5.4677-3.1262 52.136-23.736 47.765-27.647s-46.992 18.353-52.459 21.479z" stroke-width="4"/>
+    <ellipse transform="matrix(-.98188 -.18948 -.35298 .93563 0 0)" cx="-445.85" cy="879.53" rx="11.456" ry="8.5982" stroke-width="8.0584"/>
+    <ellipse transform="matrix(.99996 .0083998 -.01642 .99987 0 0)" cx="174.88" cy="889.72" rx="5.825" ry="4.1665" stroke-width="4.0001"/>
+   </g>
+  </g>
+ </g>
+</svg>
