@@ -60,6 +60,7 @@ const Post = ({params}) => {
         <span  > {postData.postHeader.lastUpdated} </span>
         {/* <span  > {postData.postHeader.author} </span> */}
        </div>
+       <div className="postDetailsTitleText" > {postData.postHeader.title} </div>
        {
         postData.data.map((item,index) => <Detailscard item={item} key={index} />)
        }

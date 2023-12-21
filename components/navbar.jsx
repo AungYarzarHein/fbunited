@@ -41,7 +41,7 @@ const Navbar = () => {
 
        <div className="mobileMenuBarIcon" onClick={onClickHanlder} > 
        {
-showMenuBar ? <Image src={closebar} width={30} height={30} alt="Menu" /> : <Image src={menubar} width={30} height={30} alt="Menu" />
+showMenuBar ? <Image src={menubar} width={26} height={26} alt="Menu" /> : <Image src={closebar} width={26} height={26} alt="Menu" />
        }
        </div>
 

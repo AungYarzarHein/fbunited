@@ -23,7 +23,9 @@ const Layout = ({children}) => {
   return (
     <div className="postLayout">
         {/* <span>Hello Post layout</span> */}
-        {children}
+       
+       {children}
+       
     </div>
   )
 }
