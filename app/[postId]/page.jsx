@@ -56,7 +56,7 @@ const Post = ({params}) => {
       {
       loading ?   <span> Loading...</span> : <div className="postDetailsContainer">
        <div className="postDetailsInfo">
-        <span  > {postData.postHeader.author} </span>
+        {/* <span  > {postData.postHeader.author} </span> */}
         <span  > {postData.postHeader.lastUpdated} </span>
         {/* <span  > {postData.postHeader.author} </span> */}
        </div>

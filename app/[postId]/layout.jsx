@@ -1,7 +1,7 @@
 import { db } from '@app/firebase-config';
 import { doc, getDoc } from 'firebase/firestore';
 import React from 'react'
-import NextTopLoader from 'nextjs-toploader';
+
 
 
 export async function generateMetadata ({params,searchParams},parent) {
@@ -20,14 +20,13 @@ export async function generateMetadata ({params,searchParams},parent) {
 }
 
 
-console.log("I am rendering...")
+
 
 
 const Layout = ({children}) => {
   return (
     <div className="postLayout">
-        {/* <span>Hello Post layout</span> */}
-      <NextTopLoader showSpinner={false} height={2} crawlSpeed={50}  speed={100} />
+       
        
        {children}
        
