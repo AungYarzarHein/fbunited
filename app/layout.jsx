@@ -3,7 +3,6 @@ import Navbar from "@components/navbar";
 import "@styles/global.css";
 import defaultFeatureImage from "@assets/images/coverfm.png";
 
-
 export const metadata = {
     title: "Football United",
     description : "This is Football United",
